@@ -27,7 +27,7 @@ docker ps -a
 
 
 # added to fix build error
-rm -r tempdir
+rm -r /tempdir
 docker stop samplerunning
 docker rm samplerunning
 
